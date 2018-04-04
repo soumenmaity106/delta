@@ -1,0 +1,197 @@
+body{
+font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar-default {
+    background-color: #000;
+    color: #fff;
+    height: 100px;
+    border-color: #000;
+}
+.navbar{
+    border-radius: 0px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color:#d8262f;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color:#d8262f;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #000;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #000;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.list-inline-header{
+    margin-bottom: 1px;
+}
+.list-inline-header>li {
+    display: inline-block;
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-top:10px;
+    
+}
+.list-inline-header>li>a{
+    text-decoration: none;
+    color:#fff;
+}
+.number-header{
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    right: 0px;
+    margin-left: 170px;
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: red;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #333;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #fff;
+    white-space: nowrap;
+}
+.header-main-menu{
+    position: relative;
+    top:30px;
+}
+.caret-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+    
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+.bg-black{
+    background-color:#000;
+    color:#fff;
+    padding:2px 2px;
+    margin-top: 5px;
+    position: relative;
+}
+.bg-black h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+.triangle-bottomright {
+    width: 0;
+    height: 0;
+    border-bottom: 52px solid #d9242e;
+    border-left: 52px solid transparent;
+    position: relative;
+    float: right;
+    bottom: -11px;
+    z-index: 99999;
+}
+.singel-image h2{
+    font-size: 18px;
+}
+.triangle-bottomright-green{
+    width: 0;
+    height: 0;
+    border-bottom: 52px solid #7fbf00;
+    border-left: 52px solid transparent;
+    position: relative;
+    float: right;
+    bottom: -11px;
+    z-index: 99999;  
+}
+.triangle-bottomright-perpel{
+    width: 0;
+    height: 0;
+    border-bottom: 52px solid #b91dd1;
+    border-left: 52px solid transparent;
+    position: relative;
+    float: right;
+    bottom: -11px;
+    z-index: 99999;
+}
+.triangle-bottomright-blue{
+    width: 0;
+    height: 0;
+    border-bottom: 52px solid #00aeef;
+    border-left: 52px solid transparent;
+    position: relative;
+    float: right;
+    bottom: -11px;
+    z-index: 99999; 
+}
+.middle-section{
+    margin-top: 50px;
+}
+.dl-horizontal dt {
+    float: left;
+    width: 109px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.dl-horizontal dd {
+    margin-left: 121px;
+}
+.dd h3{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.dd p{
+    font-size: 11px;
+}
+.footer-css{
+    background-color: #000;
+}
+.copiright{
+    padding-top:20px;
+    color:#fff;
+    margin-left:120px;
+}
+.list-inline-footer>li>a{
+    color:#fff;
+    text-decoration:none;
+}
